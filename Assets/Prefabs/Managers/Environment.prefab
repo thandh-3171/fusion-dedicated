@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3267916293143188097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3938381487973148313}
+  - component: {fileID: 1220769999689431774}
+  m_Layer: 0
+  m_Name: Environment
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3938381487973148313
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3267916293143188097}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1220769999689431774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3267916293143188097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ed3f57bc46fab4ea5a105fee32763e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayReadArgs: 1
+  enviData:
+    ExitCode: 0
+    Is64BitProcess: 1
+    CurrentManagedThreadId: 1
+    CurrentDirectory: D:\SunAsterisk-Workspace\[Projects]\Fusions\fusion-dedicated
+    CommandLine: '"C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe"
+      -projectpath D:\SunAsterisk-Workspace\[Projects]\Fusions\fusion-dedicated -useHub
+      -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-do.hoang.than
+      -hubSessionId 9c28619f-9069-498a-9ea6-9920eb12d121 -accessToken wMg0DP-6qGUbsoZeGxRnyhSK7TOgb8U0bgch0pAqMyM011f'
+    MachineName: B123171-PC
+    NewLine: '
+
+'
+    ProcessorCount: 12
+    StackTrace: "  at System.Environment.get_StackTrace () [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0
+      \r\n  at PJLived.GunnerStars.Managers.CommandLineArgManager+EnvironmentData.Update
+      () [0x00064] in D:\\SunAsterisk-Workspace\\[Projects]\\Fusions\\fusion-dedicated\\Assets\\Scripts\\CommandLineArgManager.cs:139
+      \r\n  at PJLived.GunnerStars.Managers.CommandLineArgManager.DebugEnvirontment
+      () [0x00001] in D:\\SunAsterisk-Workspace\\[Projects]\\Fusions\\fusion-dedicated\\Assets\\Scripts\\CommandLineArgManager.cs:94 "
+    SystemDirectory: C:\Windows\system32
+    SystemPageSize: 4096
+    TickCount: 22254609
+    UserDomainName: B123171-PC
+    UserInteractive: 0
+    UserName: do.hoang.than
+    WorkingSet: 0
+    HasShutdownStarted: 0
+    Is64BitOperatingSystem: 1
+    CommandLineArgs:
+    - C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+    - -projectpath
+    - D:\SunAsterisk-Workspace\[Projects]\Fusions\fusion-dedicated
+    - -useHub
+    - -hubIPC
+    - -cloudEnvironment
+    - production
+    - -licensingIpc
+    - LicenseClient-do.hoang.than
+    - -hubSessionId
+    - 9c28619f-9069-498a-9ea6-9920eb12d121
+    - -accessToken
+    - wMg0DP-6qGUbsoZeGxRnyhSK7TOgb8U0bgch0pAqMyM011f
+    LogicalDrives:
+    - C:\
+    - D:\
